@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('X-Content-Type-Options: nosniff');
 
 ini_set('session.cookie_samesite', 'lax');
-ini_set('session.cookie_secure', '1');
+// ini_set('session.cookie_secure', '1');
 ini_set('session.cookie_httponly', '1');
 
 session_start();
